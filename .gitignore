@@ -33,3 +33,16 @@ wp-content/plugins/*
 # specify (see the commented-out example for a hint on how to do this.)
 wp-content/themes/*
 # !wp-content/themes/my-theme/
+
+# Track package.json
+!package.json
+!package-lock.json
+
+# Track gulp
+!gulpfile.babel.js
+
+# Track babel
+!.babelrc
+
+# Track src folder
+!src/

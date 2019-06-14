@@ -1,0 +1,35 @@
+{
+  "name": "divinesolutions",
+  "version": "0.1.0",
+  "description": "WordPress Theme",
+  "scripts": {
+    "dev": "gulp",
+    "release": "gulp build --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fgarciachipi/divine-solutions-web.git"
+  },
+  "keywords": [
+    "WordPress",
+    "Theme"
+  ],
+  "bugs": {
+    "url": "https://github.com/fgarciachipi/divine-solutions-web/issues"
+  },
+  "homepage": "https://github.com/fgarciachipi/divine-solutions-web#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "babel-loader": "^8.0.6",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-if": "^2.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "webpack-stream": "^5.2.1",
+    "yargs": "^13.2.4"
+  }
+}
